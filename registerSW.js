@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/mifi-orange/sw.js', { scope: '/mifi-orange/' })})}
